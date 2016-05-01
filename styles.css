@@ -3,13 +3,30 @@ body {
   background-size: 110%;
 }
 
+.banner {
+  background-color: lightgreen;
+  padding: 20px;
+  width: 600px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
 main {
   width: 800px;
   margin: auto;
 }
 
-#useful_things {
+.backing_box {
   background-color: gray;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+#useful_things {
+  background-color: lightgray;
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 20px;
@@ -28,9 +45,12 @@ main {
 #useful_things ul {
   background-color: lightblue;
   width: 200px;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-radius: 10px;
-  border-style: solid;
-  border-color: 10px solid black;
+  border-style: dotted;
+  border-color: black;
 }
 
 .impactful {
