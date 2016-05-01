@@ -7,3 +7,34 @@ main {
   width: 800px;
   margin: auto;
 }
+
+#useful_things {
+  background-color: gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+#useful_things img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 5px;
+}
+
+#useful_things ul {
+  background-color: lightblue;
+  width: 200px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: 10px solid black;
+}
+
+.impactful {
+  font-family: Arial;
+  text-shadow: 2px 2px black;
+  color: white;
+}
