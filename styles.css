@@ -1,0 +1,92 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: 200%;
+}
+
+.banner {
+  background-color: lightgreen;
+  padding: 20px;
+  width: 600px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+a:visited {
+  color: green;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+}
+
+.backing_box {
+  background-color: gray;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+#useful_things {
+  background-color: lightgray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+#useful_things img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 5px;
+}
+
+#useful_things ul {
+  background-color: lightblue;
+  width: 200px;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: black;
+}
+
+.impactful {
+  font-family: Arial;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-size: 4000px 2000px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .impactful {
+    font-size: 1em;
+  }
+  .banner {
+    width: 90%;
+    min-width: 400px;
+  }
+  main {
+    width: 90%;
+    min-width: 400px;
+  }
+  .backing_box {
+    width: 90%;
+    min-width: 400px;
+  }
+  #useful_things {
+    width: 90%;
+    min-width: 400px;
+  }
+}
