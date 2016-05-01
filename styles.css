@@ -1,6 +1,6 @@
 body {
   background-image: url(images/background.jpg);
-  background-size: 110%;
+  background-size: 200%;
 }
 
 .banner {
@@ -9,6 +9,10 @@ body {
   width: 600px;
   margin-bottom: 5px;
   border-radius: 10px;
+}
+
+a:visited {
+  color: green;
 }
 
 main {
